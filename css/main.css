@@ -98,7 +98,7 @@ img {
   color: var(--accent-color);
 }
 
-.logo__header {
+.logo__part--dark {
   color: var(--logo-studio-color);
 }
 
@@ -504,12 +504,12 @@ img {
   padding: 60px 0;
 }
 
-.footer-link {
+.footer__link {
   display: inline-block;
   margin-bottom: 20px;
 }
 
-.logo-footer {
+.logo__part--light {
   color: var(--main-title-color);
 }
 
