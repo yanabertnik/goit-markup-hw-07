@@ -12,6 +12,8 @@
   --accent-background-color: #2f303a;
   --transition-duration-main: 250ms;
   --transition-timing-function-main: cubic-bezier(0.4, 0, 0.2, 1);
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-add: "Raleway", sans-serif;
 }
 
 .visually-hidden {
@@ -28,7 +30,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-main);
   color: var(--first-title-color);
 }
 
@@ -90,7 +92,7 @@ img {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family-add);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
